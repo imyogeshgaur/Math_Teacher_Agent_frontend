@@ -6,7 +6,6 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const url = import.meta.env.VITE_API_URL
-  console.log(url);
   async function handleSubmit() {
     if (!input.trim()) return;
     setLoading(true);
