@@ -24,7 +24,7 @@ const Navbar = ({
     <>
       <nav className="navbar">
         <button className="danger-btn desktop-only" onClick={deleteUser}>
-          Delete Account
+          {t.delete}
         </button>
 
         <h2 className="nav-title desktop-only">{t.welcomeUser}</h2>
