@@ -1,0 +1,86 @@
+/* ================= THEME VARIABLES ================= */
+
+/* LIGHT MODE */
+:root {
+  --bg-gradient: linear-gradient(
+    135deg,
+    #4f46e5 0%,
+    #7c3aed 50%,
+    #9333ea 100%
+  );
+
+  --drawer-gradient: linear-gradient(
+    135deg,
+    #4f46e5 0%,
+    #7c3aed 100%
+  );
+
+  --glass-bg: rgba(255, 255, 255, 0.12);
+  --card-bg: rgba(255, 255, 255, 0.12);
+  --result-bg: rgba(255, 255, 255, 0.2);
+
+  --text-primary: #ffffff;
+  --text-secondary: #000;
+
+  --textarea-bg: #ffffff;
+  --textarea-text: #000;
+
+  --primary-btn: linear-gradient(90deg, #2563eb, #3b82f6);
+
+  --danger: #ef4444;
+  --danger-hover: #dc2626;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-gradient: linear-gradient(
+      135deg,
+      #5b0f3b 0%,
+      #3a0f5f 50%,
+      #1e0f4f 100%
+    );
+
+    --drawer-gradient: linear-gradient(
+      135deg,
+      #5b0f3b 0%,
+      #3a0f5f 100%
+    );
+
+    --glass-bg: rgba(255, 255, 255, 0.06);
+    --card-bg: rgba(255, 255, 255, 0.08);
+    --result-bg: rgba(255, 255, 255, 0.07);
+
+    --text-primary: #ffffff;
+    --text-secondary: #d1d5db;
+
+    --textarea-bg: rgba(255, 255, 255, 0.08);
+    --textarea-text: #ffffff;
+
+    --primary-btn: linear-gradient(90deg, #7c3aed, #9333ea);
+  }
+}
+
+/* ================= GLOBAL ================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  transition: background 0.3s ease;
+}
+
+.home-container {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  display: flex;
+  flex-direction: column;
+}
