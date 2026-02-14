@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { useAuth } from "../../config/AuthContext";
-import "./Auth.css";
+import "./auth.css";
 
 export default function ConfirmSignup() {
   const { confirmSignUp } = useAuth();
