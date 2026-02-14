@@ -5,6 +5,7 @@ export const translations = {
     placeholder: "Enter any math problem...",
     solve: "✨ Solve",
     solving: "Solving...",
+    type:'🧑‍🏫 This is a question of ',
     steps: "📝 Steps:",
     result: "Result",
     logout: "Logout",

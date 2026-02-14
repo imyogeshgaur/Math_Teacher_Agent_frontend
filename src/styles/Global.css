@@ -1,36 +1,43 @@
 /* ================= GLOBAL THEME ================= */
 
+/* LIGHT MODE */
 :root {
+  /* Soft Lavender → Sky (works with black text) */
   --bg-gradient: linear-gradient(
     135deg,
-    #4f46e5 0%,
-    #7c3aed 50%,
-    #9333ea 100%
+    #eef2ff 0%,
+    #e0e7ff 50%,
+    #dbeafe 100%
   );
 
   --drawer-gradient: linear-gradient(
     135deg,
-    #4f46e5 0%,
-    #7c3aed 100%
+    #e0e7ff 0%,
+    #dbeafe 100%
   );
 
-  --glass-bg: rgba(255, 255, 255, 0.12);
-  --card-bg: rgba(255, 255, 255, 0.12);
-  --result-bg: rgba(255, 255, 255, 0.2);
+  /* Glass / Cards */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --result-bg: rgba(255, 255, 255, 0.85);
 
-  --text-primary: #ffffff;
-  --text-secondary: #000;
+  /* Text */
+  --text-primary: #111827;      /* rich dark gray (better than pure black) */
+  --text-secondary: #374151;
 
+  /* Inputs */
   --textarea-bg: #ffffff;
-  --textarea-text: #111111;
+  --textarea-text: #111827;
 
+  /* Buttons */
   --primary-btn: linear-gradient(90deg, #2563eb, #3b82f6);
 
   --danger: #ef4444;
   --danger-hover: #dc2626;
 }
 
-/* DARK MODE */
+/* ================= DARK MODE ================= */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-gradient: linear-gradient(
