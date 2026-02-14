@@ -1,4 +1,4 @@
-import "./ResultSection.css";
+import "../../styles/ResultSection.css";
 
 const ResultSection = ({ t, data }) => {
   return (

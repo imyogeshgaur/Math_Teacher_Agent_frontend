@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { translations } from "../../lang/langObj";
-import "./NavBar.css";
+import "../../styles/NavBar.css";
 
 const Navbar = ({
   t,

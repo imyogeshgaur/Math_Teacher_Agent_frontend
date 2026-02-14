@@ -1,5 +1,5 @@
 import ResultSection from "./ResultSection";
-import "./MainContent.css";
+import "../../styles/MainContent.css";
 
 const MainContent = ({
   t,

@@ -6,7 +6,7 @@ import { translations } from "../../lang/langObj";
 import Navbar from "./NavBar";
 import MainContent from "./MainContent";
 
-import "./Home.css";
+import "../../styles/Home.css";
 
 const Home = () => {
   const [input, setInput] = useState("");

@@ -1,6 +1,5 @@
-/* ================= THEME VARIABLES ================= */
+/* ================= GLOBAL THEME ================= */
 
-/* LIGHT MODE */
 :root {
   --bg-gradient: linear-gradient(
     135deg,
@@ -23,7 +22,7 @@
   --text-secondary: #000;
 
   --textarea-bg: #ffffff;
-  --textarea-text: #000;
+  --textarea-text: #111111;
 
   --primary-btn: linear-gradient(90deg, #2563eb, #3b82f6);
 
@@ -59,28 +58,4 @@
 
     --primary-btn: linear-gradient(90deg, #7c3aed, #9333ea);
   }
-}
-
-/* ================= GLOBAL ================= */
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  font-family: "Inter", sans-serif;
-  background: var(--bg-gradient);
-  color: var(--text-primary);
-  transition: background 0.3s ease;
-}
-
-.home-container {
-  min-height: 100vh;
-  background: var(--bg-gradient);
-  display: flex;
-  flex-direction: column;
 }
