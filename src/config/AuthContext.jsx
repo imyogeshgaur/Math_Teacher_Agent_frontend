@@ -74,6 +74,7 @@ export const AuthProvider = ({ children }) => {
 
   const handleDeleteUser = async()=>{
     await deleteUser();
+    localStorage.removeItem("lang")
     setUser(null)
   }
 
