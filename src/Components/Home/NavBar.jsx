@@ -69,7 +69,7 @@ const Navbar = ({
         </div>
 
         <button className="danger-btn" onClick={deleteUser}>
-          Delete Account
+          {t.delete}
         </button>
 
         <select
